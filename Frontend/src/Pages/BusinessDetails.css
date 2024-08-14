@@ -1,0 +1,52 @@
+/* BusinessDetails.css */
+.business-details-container {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.business-details-header {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #232f3e;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.details-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.details-column {
+  flex: 1;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.detail-value {
+  font-weight: normal;
+  color: #555;
+}
+
+.mission-statement {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+  text-align: left;
+}

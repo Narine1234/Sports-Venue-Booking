@@ -1,0 +1,141 @@
+.custom-button {
+    background-color: #ff7f50;
+    border: 1px solid #ff7f50; /* Ensure border is consistent */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s; /* Transition only color and background */
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 1.2; /* Include border and padding in element's total width and height */
+  }
+  
+  .custom-button:hover {
+    background-color: white;
+    color: black;
+    border-color: #ff7f50; /* Keep border color consistent */
+  }
+  
+  
+  
+  .custom-input {
+    border: 1px solid #ff7f50;
+    border-radius: 4px;
+    padding: 8px;
+
+  }
+  
+  .close-button {
+    background-color: grey;
+    border: 1px solid grey; /* Ensure border is consistent */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s; /* Transition only color and background */
+    cursor: pointer;
+    box-sizing: border-box; 
+    line-height: 1.2;/* Include border and padding in element's total width and height */
+  }
+  
+  .close-button:hover {
+    background-color: #dcdcdc;
+    color: black;
+    border-color: grey; /* Keep border color consistent */
+  }
+  /* Increase card size */
+  /* Increase card size */
+.card-content {
+    max-width: 100%; /* Ensure it takes full width available */
+    padding: 1rem; /* Add padding inside the card */
+  }
+  
+  /* Button group to display buttons in a grid layout */
+  .slot-button-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust column size */
+    gap: 0.5rem; /* Space between buttons */
+  }
+  
+  /* Style for slot buttons */
+  .slot-button {
+    background-color: #ffffff; /* Default background color (white) */
+    color: #28a745; /* Text color (green) */
+    border: 1px solid #28a745; /* Border color (green) */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.5rem; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+    font-size: 0.9rem; /* Font size */
+    text-align: center;
+    line-height: 1.2; /* Center text inside the button */
+  }
+  
+  /* Hover effect for slot buttons */
+  .slot-button:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+    border-color: #28a745; /* Keep border color green on hover */
+  }
+  
+  /* Selected state for slot buttons */
+  .slot-button.selected {
+    background-color: #28a745; /* Background color when selected (green) */
+    color: #ffffff; /* Text color when selected (white) */
+    border-color: #28a745; /* Border color when selected (green) */
+    transform: scale(1.05); /* Slightly scale up when selected */
+  }
+  
+  /* Ensure the date picker and form controls take full width */
+  .form-control {
+    width: 100%;
+  }
+  /* Disabled state for slot buttons */
+.slot-button.disabled {
+    background-color: #e0e0e0; /* Gray background for disabled buttons */
+    color: #a0a0a0; /* Gray text for disabled buttons */
+    border-color: #a0a0a0; /* Gray border for disabled buttons */
+    cursor: not-allowed; /* Show not-allowed cursor for disabled buttons */
+  }
+  .footer-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .total-amount {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .slot-button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .slot-button {
+    margin: 2px;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  

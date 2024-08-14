@@ -1,0 +1,192 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* App Styles */
+.app-body {
+  padding: 20px;
+  position: relative;
+}
+
+/* Turf Card Styles */
+.turf-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.vertical-card {
+  width: 100%;
+}
+
+.turf-title {
+  font-size: 1.5rem;
+  color: rgb(19, 26, 34);
+  text-align: left;
+}
+
+.turf-logo {
+  border-radius: 8%;
+  width: 250px;
+  height: 225px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details {
+  text-align: left;
+}
+
+/* Rating Styles */
+.rating {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.rating button {
+  margin-right: 0.25rem;
+}
+
+.rating .click-to-rate {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Buttons Styles */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+/* Time Slots Styles */
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.time-slot-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Toggle Button Group Styles */
+.toggle-button-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  position: relative;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: rgb(19, 26, 34);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+  transition: color 0.3s;
+  flex: 1;
+  text-align: center;
+}
+
+.toggle-button.active {
+  color: #0056b3;
+}
+
+.highlight {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 16.66%; /* Changed to a percentage value for better responsiveness */
+  background: #007bff;
+  transition: left 0.3s;
+}
+
+/* Information Section Styles */
+.info {
+  margin-top: 20px;
+}
+
+/* Floating Action Button Styles */
+.fab-container {
+  position: fixed;
+  bottom: 65px;
+  right: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Cart Drawer Styles */
+.cart-drawer {
+  width: 400px;
+  padding: 20px;
+}
+
+.cart-drawer h4 {
+  margin: 0;
+}
+
+.cart-drawer .MuiIconButton-root {
+  float: right;
+}
+
+.cart-drawer .MuiListItem-root {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-drawer .MuiListItem-root .MuiIconButton-root {
+  margin-left: 10px;
+}
+
+.cart-drawer .MuiButton-root {
+  margin-left: 10px;
+}
+
+.cart-drawer .total-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cart-drawer .total-amount h5 {
+  margin: 0;
+}
+
+.cart-drawer .total-amount .checkout-button {
+  display: flex;
+  gap: 10px;
+}
+.amount-text {
+  font-size: 1.5em;
+  color: #004d40; /* Teal color */
+  font-weight: bold;
+  display: block;
+}
+
+.members-text {
+  font-size: 1.2em;
+  color: #00695c; /* Darker teal */
+  font-weight: bold;
+}
