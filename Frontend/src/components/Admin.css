@@ -1,0 +1,77 @@
+.admin {
+  position: relative;
+  padding: 16px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.admin-table {
+  margin-top: 24px;
+}
+
+/* Floating Action Button Positioning */
+.fab-container {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+/* Overlay Form Styles */
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it is above other content */
+}
+
+/* Admin.css or AdminForm.css */
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.cancel-button {
+  margin-top: 16px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #d32f2f;
+}
+/* Admin.css */
+.admin-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

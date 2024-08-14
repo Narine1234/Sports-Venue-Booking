@@ -1,0 +1,127 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #79a1d6;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 30px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.location-select,
+.turf-type-select,
+.rating-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  appearance: none;
+  width: 150px; /* Set a fixed width */
+}
+
+.location-icon {
+  position: absolute;
+  left: 10px;
+  color: #999;
+  pointer-events: none;
+}
+
+.search-button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background-color: #e65c00;
+}
+
+.navbar-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  color: #007bff;
+}
+
+.profile-section {
+  position: relative;
+}
+
+.profile-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  margin-right: 15px; /* Margin for the profile icon */
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.email-display {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logout-button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logout-button:hover {
+  background-color: #e65c00;
+}

@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox Utility Classes */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+/* Box Area Styling */
+.advertise-container {
+    max-width: 1200px; /* Adjust for larger screens */
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* Header Text Styling */
+.header-text {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.header-text h1 {
+    margin-bottom: 0.5rem;
+    color: #103cbe;
+}
+
+/* Custom Input Styling */
+.custom-input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    color: #fff;
+    background-color: #103cbe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0c2f99;
+}
+
+/* Upload Button Styling */
+.upload-button {
+    background-color: #4caf50;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+/* Image Styling */
+.advertise-image {
+    max-width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .advertise-container {
+        flex-direction: column;
+    }
+}

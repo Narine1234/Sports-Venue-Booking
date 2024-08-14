@@ -1,0 +1,97 @@
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5;
+  gap: 20px; /* Add space between the left and right sections */
+}
+
+.contact-us-left,
+.contact-us-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Add some space below the logo */
+}
+
+.contact-us-right h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.contact-us-right p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+form {
+  display: grid;
+  gap: 20px; /* Space between form groups */
+}
+
+/* Adjust margin for the email label */
+.form-group.email {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* Label and input will be on separate columns */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space below email field */
+}
+
+.form-group.email label {
+  margin: 0;
+  font-weight: bold;
+  text-align: right; /* Align label text to the right */
+  padding-left: 20px; /* Add padding to push the email label towards the right */
+}
+
+/* Default form group for feedback */
+.form-group {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* Label and input will be on separate columns */
+  align-items: center; /* Align items vertically */
+}
+
+.form-group label {
+  margin: 0;
+  font-weight: bold;
+  text-align: right; /* Align label text to the right */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: flex-start; /* Align button to the left */
+}
+
+button:hover {
+  background-color: #0056b3;
+}

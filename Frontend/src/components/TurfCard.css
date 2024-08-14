@@ -1,0 +1,172 @@
+.turf-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  /* margin: 30px 40px; Reduced the margin on left and right */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Added for positioning the verified icon */
+}
+
+.turf-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.turf-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.turf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure title and icon are at opposite ends */
+}
+
+.turf-title {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.verified-info {
+  display: flex;
+  align-items: center;
+}
+
+.verified-icon {
+  color: #28a745;
+  font-size: 1.2em;
+  margin-right: 8px; /* Space between the icon and the text */
+}
+
+.verified-text {
+  font-size: 1em;
+  color: #28a745;
+}
+
+.turf-address {
+  margin: 10px 0;
+  color: #555;
+  text-align: left;
+}
+
+.turf-rating {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.rating-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-value {
+  color: #5cb85c;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.stars {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.star {
+  display: inline-block;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.star.filled {
+  color: #f1c40f;
+}
+
+.star.half-filled {
+  color: #ddd;
+}
+
+.star.half-filled::before {
+  content: '★';
+  position: absolute;
+  color: #f1c40f;
+  width: var(--half-star-width, 50%);
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+
+.star.empty {
+  color: #ddd;
+}
+
+.rating-count {
+  color: #888;
+}
+
+.turf-services {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.service-tag {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 0.9em;
+}
+
+.turf-actions {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  justify-content: flex-start;
+}
+
+.call-button, .book-slot-button {
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.call-button {
+  background-color: #007bff;
+}
+
+.book-slot-button {
+  background-color: #28a745;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.heart-icon {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.heart-icon.favorited {
+  color: #e74c3c; /* Color when the heart is favorited */
+}
+.no-reviews {
+  font-size: 18px;
+  color: #888;
+  margin-left: 5px;
+}

@@ -1,0 +1,135 @@
+.admin-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.filter-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.three-dots-dropdown {
+  font-size: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.admin-table td {
+  font-weight: normal;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.details-dropdown {
+  background-color: #28a745;
+  color: white;
+}
+
+.details-dropdown:hover {
+  background-color: #218838;
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268;
+}
+
+.expanded-row .expanded-content {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expanded-content span {
+  margin-right: 20px;
+}
